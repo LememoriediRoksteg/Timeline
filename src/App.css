@@ -1,0 +1,40 @@
+.timeline-event {
+  display: flex;
+  align-items: center; /* Allinea verticalmente gli elementi al centro */
+  padding: 5px 10px; /* Padding per ogni evento */
+  border-bottom: 1px solid #ccc; /* Linea di separazione tra gli eventi */
+  justify-content: flex-start; /* Allinea gli elementi a sinistra */
+}
+
+.timeline-event span {
+  margin-right: 10px; /* Margine a destra per distanziare la data dalla descrizione */
+}
+
+.timeline-event strong {
+  margin-right: 10px; /* Margine a destra per distanziare la didascalia dal bottone */
+  padding-left: 20px; /* Aggiunto padding a sinistra per evitare che il testo sia tagliato */
+}
+
+.timeline-event button {
+  margin-left: 10px; /* Margine per distanziare il bottone dalla descrizione */
+}
+
+/* Nuova classe per i libri */
+.books-container {
+  display: flex;
+  justify-content: center; /* Centra le miniature dei libri */
+  position: fixed; /* Fissa la posizione in basso */
+  bottom: 10px; /* Distanza dal fondo della pagina */
+  left: 0;
+  right: 0;
+  padding: 10px 0; /* Padding sopra e sotto */
+  background-color: white; /* Sfondo bianco per i libri */
+  border-top: 1px solid #ccc; /* Linea di separazione sopra */
+}
+
+.book-thumbnail {
+  margin: 0 10px; /* Margine laterale per distanziare le miniature */
+  cursor: pointer; /* Cursore a mano per indicare che è cliccabile */
+  width: 100px; /* Larghezza fissa per le miniature */
+  height: auto; /* Altezza automatica per mantenere le proporzioni */
+}
